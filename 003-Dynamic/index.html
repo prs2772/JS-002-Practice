@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic</title>
+  </head>
+  <body>
+    <header>
+      <h1>Dynamic content</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Dynamic fields</h2>
+        <input
+          id="dynamic-section--input__field-one"
+          placeholder="Type a number"
+          type="number"
+          onchange="console.log('Hi!')"s
+          required
+        />
+        <input
+          id="dynamic-section--input__field-two"
+          placeholder="Type a number"
+          type="number"
+          required
+        />
+        <button id="dynamic-section--button__submit" onclick="onClick()">Do something</button>
+        <div id="dynamic-section--div"></div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="./index.js"></script>
+  </body>
+</html>

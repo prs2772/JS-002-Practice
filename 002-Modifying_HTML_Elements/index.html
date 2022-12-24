@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Page that shows you about learnin AI" />
+  <meta name="robots" content="index, follow" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JS practice</title>
+</head>
+<body>
+  <header>
+    <h1></h1>
+  </header>
+  <main>
+    <section id="main-section">
+      <h2 id="first-section-header"></h2>
+      <p id="first-section-par1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, facilis?</p>
+      <p id="first-section-par2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus provident dolor repellat quo voluptatibus ratione fugiat exercitationem. Iusto vel architecto, voluptates optio eligendi repellendus delectus dolore dicta!</p>
+      <form id="first-section-form">
+        <label for="user-name">
+          <span>What is your name?</span>
+          <input type="text" id="user-name" required autocomplete="name" />
+        </label>
+        <label for="user-calendar">
+          <span>When are you going to go on holidays?</span>
+          <input
+            type="datetime-local"
+            id="user-calendar"
+            name="user-calendar"
+            required
+          />
+        </label>
+        <label for="languages-input">
+          <span>Select a programming language</span>
+          <input list="languages" id="languages-input" required />
+          <datalist id="languages">
+            <option value="C#">C#</option>
+            <option value="C++">C++</option>
+            <option value="C">C</option>
+            <option value="Ruby">Ruby</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Java">Java</option>
+            <option value="Python">Python</option>
+          </datalist>
+        </label>
+        <input type="submit" value="Send data" />
+        <button type="submit">Send my data</button>
+      </form>
+      <div id="dynamic-section--div"></div>
+    </section>
+  </main>
+  <footer>
+    
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
